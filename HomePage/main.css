@@ -428,7 +428,7 @@ color: #fff;
 }
 
 
-@media only screen and (max-width: 576px) {
+/* @media only screen and (max-width: 576px) {
 
     
   .description h1 {
@@ -451,8 +451,11 @@ color: #fff;
     line-height: 1.5;
   }
 
-}
+} */
 
+@media screen and (max-width: 1200px) {
+  body { padding-top: 0px; }
+}
 
 
 
