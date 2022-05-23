@@ -373,57 +373,9 @@ color: #fff;
   font-size: 16px;
 }
 
-@media (max-width: 576px) {
-
-    
-  .description h1 {
-
-    font-family: "Gotham Black", sans-serif;
-    
-    font-size: 50px;
-    
-    color: white;
-  }
 
 
-  .description p {
-    
-
-    color: #fff;
-
-    font-size: 1.1rem;
-
-    line-height: 1.5;
-  }
-
-}
-
-@media (max-width: 768px) {
-
-    
-  .description h1 {
-
-    font-family: "Gotham Black", sans-serif;
-    
-    font-size: 60px;
-    
-    color: white;
-  }
-
-
-  .description p {
-    
-
-    color: #fff;
-
-    font-size: 1.2rem;
-
-    line-height: 1.5;
-  }
-
-}
-
-@media (max-width: 1200px) {
+@media all and (max-width: 1200px) {
 
     
   .description h1 {
@@ -444,6 +396,57 @@ color: #fff;
     color: #fff;
 
     font-size: 1.2rem;
+
+    line-height: 1.5;
+  }
+
+}
+
+@media all and (max-width: 768px) {
+
+    
+  .description h1 {
+
+    font-family: "Gotham Black", sans-serif;
+    
+    font-size: 60px;
+    
+    color: white;
+  }
+
+
+  .description p {
+    
+
+    color: #fff;
+
+    font-size: 1.2rem;
+
+    line-height: 1.5;
+  }
+
+}
+
+
+@media only screen and (max-width: 576px) {
+
+    
+  .description h1 {
+
+    font-family: "Gotham Black", sans-serif;
+    
+    font-size: 30px;
+    
+    color: white;
+  }
+
+
+  .description p {
+    
+
+    color: #fff;
+
+    font-size: 20px;
 
     line-height: 1.5;
   }
