@@ -301,3 +301,13 @@ body {
   width: 550px;
   height: 550px;
 }
+
+@media all and (max-width: 768px) {
+
+    
+  .img-size {
+    width: 350px;
+    height: 350px;
+  }
+
+}
